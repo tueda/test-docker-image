@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM debian:bookworm
 RUN useradd -m user
 WORKDIR /workspace
 COPY docker-entrypoint.sh /
