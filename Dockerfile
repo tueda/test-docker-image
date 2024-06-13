@@ -1,4 +1,4 @@
-FROM fedora:latest
+FROM ubuntu:latest
 RUN useradd -m user
 WORKDIR /workspace
 COPY docker-entrypoint.sh /
