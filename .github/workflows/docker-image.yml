@@ -24,7 +24,7 @@ jobs:
       id: meta
       uses: docker/metadata-action@v5
       with:
-          images: name/app
+          images: ghcr.io/${{ github.repository_owner }}/test
     
     - name: Login to GitHub Container Registry
       uses: docker/login-action@v3
