@@ -3,6 +3,8 @@ name: Build and Push Docker Image
 on:
   workflow_dispatch:
   push:
+    branches:
+      - '**'
     tags:
       - 'v*'
   pull_request:
